@@ -43,7 +43,7 @@ def add_s(array)
   ar = []
   i = 0
   array.each do |a|
-  while i != 2
+  if i != 2
   ar <<  a = a + "s"
   end
   i += 1
