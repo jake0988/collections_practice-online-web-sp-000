@@ -44,6 +44,6 @@ def add_s(array)
   array.each do |a|
   ar <<  a = a + "s"
   end
-      ar[1].chomp('s')
+      ar[1].chop('s')
       ar
 end
