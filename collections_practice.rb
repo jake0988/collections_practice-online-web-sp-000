@@ -41,11 +41,9 @@ end
 
 def add_s(array)
   ar = []
-  i = 0
   array.each do |a|
   ar <<  a = a + "s"
-  if i = 1
-    ar[1].delete_suffic("s")
-  i += 1
   end
+      ar[1].delete_suffix("s")
+      ar
 end
